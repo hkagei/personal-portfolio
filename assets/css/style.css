@@ -47,6 +47,9 @@ a {
     text-decoration: none;
 }
 
+a1 {
+    color: white
+}
 p {
     font-size: 17px;
 }
@@ -252,3 +255,13 @@ p {
           order: 3;
       }
     }   
+
+    .runbuddy-image {
+        width: 400px;
+        height: auto;
+    }
+
+    .SEO-image {
+        width: 400px;
+        height: auto;
+    }
