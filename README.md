@@ -10,4 +10,4 @@ Deployed Link
 
 Screenshot
 -
-[img]https://i.imgur.com/LErFVPf.png[/img]
+![Imgur](https://i.imgur.com/LErFVPf.png)
