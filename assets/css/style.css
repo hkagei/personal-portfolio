@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+    margin-bottom: 10px;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url("../images/DSC_8526.jpg");
@@ -40,27 +41,29 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    padding: 20px;
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
-a1 {
-    color: white
-}
 p {
     font-size: 17px;
+
 }
 
 .hero {
     height: 400px;
     width: 100%;
-    margin-bottom: 55px;
+    margin-bottom: 35px;
     background-image: url("../images/DSC_8006.jpg");
     background-size: cover;
     background-position: 0px 0px;
+    display: flex;
+    align-items: flex-start;
+    padding: 30px;
 }
 
 .float-left {
@@ -68,69 +71,66 @@ p {
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
-    width: 70%;
-    margin-left: 250px;
+    width: auto;
+    height: auto;
     display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-me {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 20px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    color: black;
+    background-color: beige;
+    display: flex;
 }
 
 .work {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+    padding: 20px;
+    height: 500px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    color: black;
+    display: flex;
+    align-items: left;
+    background-color: blanchedalmond;
+}
+
+.runbuddy-image {
+    width: 650px;
+    height: 400px;
+    padding: 20px;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.SEO-image {
+    width: 750px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contact-me {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 20px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .about-me img {
     max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
@@ -184,13 +184,7 @@ p {
         width: 80%;
     }
 
-    .trainer {
-        flex: 0 70%;
-    }
 
-    .contact-info iframe {
-        flex: 1 100%
-    }
    
   }
   
@@ -199,30 +193,31 @@ p {
 
     section {
         padding: 30px 15px;
-    }
-
-    .step h3 {
+      }
+    
+      .step h3 {
         flex: 1 100%;
         text-align: center;
-    }
-
-    .step-info {
+      }
+    
+      .contact-me {
         flex: 2 100%;
-        text-align: center;
+        text-align: left;
         justify-content: center;
-    }
-
-    .step-img {
+      }
+    
+      .step-img {
         flex: 0 32%;
         margin-right: 0;
         margin-top: 15px;
         margin-bottom: 15px;
+      }
+    
+      .step-text {
+        flex: 100%;  
+      }
+    
     }
-
-    .step-text {
-        flex: 100%;
-    }
-  }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
@@ -239,29 +234,13 @@ p {
         width: 100%;
       }
     
-      .trainer {
-        flex: 0 100%;
+      .contact-me {
+        text-align: left;
       }
     
-      .contact-info {
-        text-align: center;
-      }
-    
-      .contact-info > * {
+      .contact-me > * {
         flex: 0 100%;
-      }
-
-      .contact-form {
-          order: 3;
       }
     }   
 
-    .runbuddy-image {
-        width: 450px;
-        height: auto;
-    }
-
-    .SEO-image {
-        width: 450px;
-        height: auto;
-    }
+    
