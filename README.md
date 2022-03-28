@@ -10,4 +10,4 @@ Deployed Link
 
 Screenshot
 -
-![Imgur](https://imgur.com/a/rHCTalv
+![Imgur](https://imgur.com/a/rHCTalv.png)
