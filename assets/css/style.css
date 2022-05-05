@@ -120,6 +120,15 @@ p {
     flex-wrap: wrap;
 }
 
+.national-mapper-image {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
 .contact-me {
     margin-bottom: 20px;
     padding: 20px;
